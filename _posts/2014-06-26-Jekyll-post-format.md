@@ -4,6 +4,7 @@ category : tutorial
 tagline: "how to write a post"
 tags : [Jekyll]
 ---
+{% include JB/setup %}
 
 编写基于jekyll的文章，要注意两点
 
@@ -16,4 +17,7 @@ tags : [Jekyll]
     tagline: "how to write a post"
     tags : [Jekyll]
     ---
+    {% include JB/setup %}
+
+ 这样就能生成正常的blog文章
 
