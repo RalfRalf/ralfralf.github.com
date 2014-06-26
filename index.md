@@ -15,7 +15,18 @@ tagline: Articles about Java and distributed computing
      
      <div class="tab-content">
           <div class="tab-pane active" id ="write_post">
-               
+~~~~~~
+    ---
+    layout: post
+    title: "此标题可以替换默认英文标题"
+    tagline: "副标题"
+    description: "摘要，显示在首页"
+    category: tech
+    tags: [tech, web, jekyll]
+    ---
+    {% include JB/setup %}
+~~~~~~
+
                <p>see these articles for the details:</p>
                <ul>
                     <li><a href="http://kramdown.gettalong.org/quickref.html">[kramdown]</a></li>
