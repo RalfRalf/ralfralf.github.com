@@ -9,7 +9,7 @@ tagline: Articles about Java and distributed computing
      
      <div class="span8">
           <h5>Highlight Code</h5>
-          <pre>
+          <pre class="prettyprint linenums">
             
 public static void main(String args[]){
 
@@ -19,7 +19,7 @@ public static void main(String args[]){
      </div>
      <div class="span4">
           <h5>MarkDown text</h5>
-          <pre>
+          <pre class="prettyprint linenums">
  #WEB tech#
  
  -HTML
