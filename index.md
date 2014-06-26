@@ -5,15 +5,34 @@ tagline: Articles about Java and distributed computing
 ---
 {% include JB/setup %}
 
-<pre class="prettyprint
-     linenums">
-  
-  public static void main(String args[]){
-  
-      System.out.println("Hello world!");
-  }
- 
-</pre>
+<div class="row-fluid">
+     
+     <div class="span6">
+          Highlight Code
+          <pre class="prettyprint linenums">
+            
+            public static void main(String args[]){
+            
+                System.out.println("Hello world!");
+            }
+           
+          </pre>
+     </div>
+     <div class="span6">
+          MarkDown text
+          <pre class="prettyprint linenums">
+            
+            #Great Fire wall#
+            
+            u can't stop me~
+           
+          </pre>
+          
+     </div>
+     
+     
+
+</div>
 
 {% for post in site.posts %}
   <hr>
