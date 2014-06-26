@@ -9,9 +9,11 @@ tags : [Jekyll]
 
 - 在'_posts'目录下，建立的*.md文件的文件名为 year-month-day-title.md
 - 文章的一开头，需要声明如下内容
-        ---
-        layout: post
-        category : tutorial
-        tagline: "how to write a post"
-        tags : [Jekyll]
-        ---
+~~~yaml
+---
+layout: post
+category : tutorial
+tagline: "how to write a post"
+tags : [Jekyll]
+---
+~~~
