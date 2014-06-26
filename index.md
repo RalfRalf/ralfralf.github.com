@@ -15,18 +15,16 @@ tagline: Articles about Java and distributed computing
      
      <div class="tab-content">
           <div class="tab-pane active" id ="write_post">
-<pre class="prettyprint linenums">
-    ---
-    layout: post
-    title: "此标题可以替换默认英文标题"
-    tagline: "副标题"
-    description: "摘要，显示在首页"
-    category: tech
-    tags: [tech, web, jekyll]
-    ---
-    {% raw %}
-    {% include JB/setup %}
-    {% endraw %}
+<pre class="prettyprint">
+---
+layout: post
+title: "此标题可以替换默认英文标题"
+tagline: "副标题"
+description: "摘要，显示在首页"
+category: tech
+tags: [tech, web, jekyll]
+---
+{% raw %}{% include JB/setup %}{% endraw %}
    
 </pre>
 
