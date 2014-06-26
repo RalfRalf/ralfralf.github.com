@@ -7,7 +7,7 @@ tagline: Articles about Java and distributed computing
 
 <div class="row-fluid">
      
-     <div class="span6">
+     <div class="span8">
           <h5>Highlight Code</h5>
           <pre class="prettyprint linenums">
             
@@ -17,7 +17,7 @@ public static void main(String args[]){
 }
           </pre>
      </div>
-     <div class="span6">
+     <div class="span4">
           <h5>MarkDown text</h5>
           <pre class="prettyprint linenums">
             
@@ -26,8 +26,6 @@ public static void main(String args[]){
  -HTML
  -CSS
  -Javascript
- 
- 
            </pre>
           
      </div>
