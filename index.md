@@ -5,7 +5,7 @@ tagline: Coding
 ---
 {% include JB/setup %}
 
-## Articles about Java and distributed computing ##
+#### Articles about Java and distributed computing ####
 
 {% for post in site.posts %}
   <hr>
