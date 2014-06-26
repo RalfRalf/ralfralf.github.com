@@ -5,7 +5,15 @@ tagline: Articles about Java and distributed computing
 ---
 {% include JB/setup %}
 
-Coding...
+<pre class="prettyprint
+     linenums">
+  
+  public static void main(String args[]){
+  
+      System.out.println("Hello world!");
+  }
+ 
+</pre>
 
 {% for post in site.posts %}
   <hr>
