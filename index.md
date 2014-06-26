@@ -8,25 +8,27 @@ tagline: Articles about Java and distributed computing
 <div class="row-fluid">
      
      <div class="span6">
-          Highlight Code
+          <h5>Highlight Code</h5>
           <pre class="prettyprint linenums">
             
-            public static void main(String args[]){
-            
-                System.out.println("Hello world!");
-            }
-           
+public static void main(String args[]){
+
+     System.out.println("Hello world!");
+}
           </pre>
      </div>
      <div class="span6">
-          MarkDown text
+          <h5>MarkDown text</h5>
           <pre class="prettyprint linenums">
             
-            #Great Fire wall#
-            
-            u can't stop me~
-           
-          </pre>
+ #WEB tech#
+ 
+ -HTML
+ -CSS
+ -Javascript
+ 
+ 
+           </pre>
           
      </div>
      
