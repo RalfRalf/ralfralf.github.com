@@ -12,7 +12,7 @@ tags : [Jekyll]
 - 文章的一开头，需要声明内容
 
 具体如下
-~~~~~~
+<pre>
     ---
     layout: post
     title: "此标题可以替换默认英文标题"
@@ -22,7 +22,7 @@ tags : [Jekyll]
     tags: [tech, web, jekyll]
     ---
     {% raw %}{% include JB/setup %}{% endraw %}
-~~~~~~
+</pre>
 
 这样就能生成正常的blog文章
 
