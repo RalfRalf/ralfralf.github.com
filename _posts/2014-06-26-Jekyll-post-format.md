@@ -21,7 +21,7 @@ tags : [Jekyll]
     category: tech
     tags: [tech, web, jekyll]
     ---
-    {% include JB/setup %}
+    {% raw %}{% include JB/setup %}{% endraw %}
 ~~~~~~
 
 这样就能生成正常的blog文章
