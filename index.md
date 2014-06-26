@@ -16,8 +16,8 @@ tagline: Articles about Java and distributed computing
      <div class="tab-content">
           <div class="tab-pane active" id ="write_post">
                
-               see this article for the [details](http://ralfralf.github.io/tutorial/2014/06/26/Jekyll-post-format/)
-               A [link](http://kramdown.gettalong.org)
+               see this article for the [details](http://ralfralf.github.io/tutorial/2014/06/26/Jekyll-post-format/ "post format")
+               A [link](http://kramdown.gettalong.org "hp")
                
                 
           </div>
