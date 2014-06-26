@@ -5,7 +5,7 @@ tagline: Articles about Java and distributed computing
 ---
 {% include JB/setup %}
 
-<div class="tabbable">
+<div class="tabbable" style="border:1px solid #ddd">
      
      <ul class="nav nav-tabs" id="example-tabs">
        <li class="active"><a href="#write_post"  data-toggle="tab">Write_post</a></li>
