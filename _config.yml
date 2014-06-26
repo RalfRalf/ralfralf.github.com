@@ -9,7 +9,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Ralf-blogs
-tagline: Coding
+tagline: "Articles about Java and distributed computing"
 author :
   name : Ralf
   email : novabupt@gmail.com
