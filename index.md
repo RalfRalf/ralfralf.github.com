@@ -5,11 +5,11 @@ tagline: Coding
 ---
 {% include JB/setup %}
 
-#### Articles about Java and distributed computing ####
+Coding...
 
 {% for post in site.posts %}
   <hr>
-  <h1>{{post.title}}</h1>  
+  <h3>{{post.title}}</h3>  
   {{post.date|date: "%Y-%m-%d"}}
 
   {{post.description}}
