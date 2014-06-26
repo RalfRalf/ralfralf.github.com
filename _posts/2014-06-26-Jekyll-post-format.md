@@ -11,12 +11,12 @@ tags : [Jekyll]
 - 文章的一开头，需要声明如下内容
 <pre class="prettyprint linenums">
 <code class="yaml">
----
+\-\-\-
 layout: post
 category : tutorial
 tagline: "how to write a post"
 tags : [Jekyll]
----
+\-\-\-
 </code>
 </pre>
 
