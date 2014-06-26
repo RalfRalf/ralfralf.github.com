@@ -18,7 +18,8 @@ tagline: Articles about Java and distributed computing
                
                see this article for the [details](http://ralfralf.github.io/tutorial/2014/06/26/Jekyll-post-format/ "post format")
                [kramdown](http://kramdown.gettalong.org/quickref.html "hp")
-               
+               [阅读全文]({{post.url}})
+               [阅读全文](http://kramdown.gettalong.org/quickref.html)
                 
           </div>
           
