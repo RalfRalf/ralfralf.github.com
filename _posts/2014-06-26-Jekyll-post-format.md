@@ -15,9 +15,11 @@ tags : [Jekyll]
 ~~~~~~
     ---
     layout: post
-    category : tutorial
-    tagline: "how to write a post"
-    tags : [Jekyll]
+    title: "此标题可以替换默认英文标题"
+    tagline: "副标题"
+    description: "摘要，显示在首页"
+    category: tech
+    tags: [tech, web, jekyll]
     ---
     {% include JB/setup %}
 ~~~~~~
