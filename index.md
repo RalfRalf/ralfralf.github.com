@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ralf's Blog
-tagline: Coding
+tagline: Articles about Java and distributed computing
 ---
 {% include JB/setup %}
 
