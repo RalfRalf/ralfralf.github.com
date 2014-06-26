@@ -20,7 +20,6 @@ public static void main(String args[]){
      <div class="span4">
           <h5>MarkDown text</h5>
           <pre class="prettyprint linenums">
-            
  #WEB tech#
  
  -HTML
