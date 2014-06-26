@@ -11,6 +11,7 @@ tagline: Articles about Java and distributed computing
        <li class="active"><a href="#write_post"  data-toggle="tab">Write_post</a></li>
        <li><a href="#highlight_code"  data-toggle="tab">Highlight Code</a></li>
        <li><a href="#markdown_text" data-toggle="tab">Markdown Text</a></li>
+       <li><a href="#todo_list" data-toggle="tab">ToDo</a></li>
      </ul>
      
      <div class="tab-content">
@@ -60,6 +61,15 @@ tags: [tech, web, jekyll]
                 </pre>
                
           </div>
+
+           <div class="tab-pane" id="todo_list">
+
+              <ul>
+                  <li>Markdown与HTML都可以写入 *.md中，但是在HTML中嵌套 markdown 是无效的</li>
+                  <li>目前 jekyll模板用的 kramdown解析器，但是没有配置解析器的highlight code的功能</li>
+                  <li>首页继续美化</li>
+              </ul>
+           </div>
      
      </div>
 
