@@ -24,7 +24,7 @@ tagline: Articles about Java and distributed computing
     category: tech
     tags: [tech, web, jekyll]
     ---
-    {{"{% include JB/setup %}"}}
+    {{ &ldquo; {% include JB/setup %} &ldquo;}}
 </pre>
 
                <p>see these articles for the details:</p>
