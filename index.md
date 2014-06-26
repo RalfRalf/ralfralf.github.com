@@ -5,7 +5,7 @@ tagline: Articles about Java and distributed computing
 ---
 {% include JB/setup %}
 
-<div class="hero-unit">
+<div class="tabbable">
      
      <ul class="nav nav-tabs" id="example-tabs">
        <li class="active"><a href="#highlight_code"  data-toggle="tab">Highlight Code</a></li>
