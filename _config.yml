@@ -8,13 +8,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Ralf's Blog
+title : Ralf-blogs
 tagline: Coding
-author : Ralf
-  name : Ralf Li
+author :
+  name : Ralf
   email : novabupt@gmail.com
   github : RalfRalf
-  twitter : username
+  twitter : Ralf
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
