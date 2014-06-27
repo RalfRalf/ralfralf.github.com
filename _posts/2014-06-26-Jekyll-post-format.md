@@ -43,11 +43,12 @@ tags : [Jekyll]
         
         {% raw %}
         {% endhighlight %}{% endraw %}
-        ```
         
+        ```
+    
     3. 使用 GFM的 围墙代码块,例子如下：
         
-        ```java
+        {% highlight java %}
         {% raw %}```java
         {% endraw %}
         public static void main(String args[]){
@@ -55,7 +56,7 @@ tags : [Jekyll]
         }
         {% raw %}```
         {% endraw %}
-        ```
+        {% endhighlight %}
 
 效果如下：
 
