@@ -41,10 +41,10 @@ Liquid的标签分为两种
 
 具体内容参见[此链接](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
 
-'''java
+{% highlight java %}
 
 public static void main(String args[]){
     System.out.println("test highlight code");
 }
 
-'''
+{% endhighlight %}
