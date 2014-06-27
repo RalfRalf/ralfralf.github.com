@@ -33,7 +33,7 @@ tags : [Jekyll]
     1. 使用Html，bootstrap配合 googl-code-prettify.js
     2. 使用 {% raw %}{% highlight java %}{% endraw %},例子如下：
         
-        ```
+        ```java
         {% raw %}{% highlight java %}
         {% endraw %}
         
@@ -47,7 +47,7 @@ tags : [Jekyll]
         
     3. 使用 GFM的 围墙代码块,例子如下：
         
-        ```
+        ```java
         {% raw %}```java
         {% endraw %}
         public static void main(String args[]){
