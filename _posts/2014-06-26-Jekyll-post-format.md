@@ -32,21 +32,29 @@ tags : [Jekyll]
 - 代码高亮：代码高亮有三种方式：
     1. 使用Html，bootstrap配合 googl-code-prettify.js
     2. 使用 {% raw %}{% highlight java %}{% endraw %},例子如下：
+        
         ```
-        {% raw %}{% highlight java %}{% endraw %}
+        {% raw %}{% highlight java %}
+        {% endraw %}
+        
         public static void main(String args[]){
             System.out.println("test highlight code");
         }
-        {% raw %}{% endhighlight %}{% endraw %}
+        
+        {% raw %}
+        {% endhighlight %}{% endraw %}
         ```
         
     3. 使用 GFM的 围墙代码块,例子如下：
+        
         ```
-        {% raw %}```java{% endraw %}
+        {% raw %}```java
+        {% endraw %}
         public static void main(String args[]){
             System.out.println("test highlight code");
         }
-        {% raw %}```{% endraw %}
+        {% raw %}```
+        {% endraw %}
         ```
 
 效果如下：
