@@ -48,3 +48,10 @@ public static void main(String args[]){
 }
 
 {% endhighlight %}
+
+
+```java
+public static void main(String args[]){
+    System.out.println("test highlight code");
+}
+```
