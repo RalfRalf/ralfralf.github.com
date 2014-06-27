@@ -17,7 +17,7 @@ tags: [stock, capital, 股票, 资本]
   - 如何确定总股本
   - 如何确定股价
 
-- 上市的好处：[参见zhihu]()
+- 上市的好处：[参见zhihu](http://www.zhihu.com/question/19988574)
 
 - 选择在哪里上市：参见http://www.zhihu.com/question/21360652
 
