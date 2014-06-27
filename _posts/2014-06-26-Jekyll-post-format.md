@@ -35,6 +35,7 @@ tags : [Jekyll]
 3. 其他改动主要针对blog样式，这需要参考jekyll的目录结构，以及jekyll的模板Liquid的语法
 
 Liquid的标签分为两种
+
 - {% raw %} {{ }} {% endraw %} 为输出标签，主要用于变量常量的输出和format
 - {% raw %} {% %} {% endraw %} 为tag标签，主要用于 if，for等控制
 
