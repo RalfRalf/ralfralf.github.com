@@ -4,7 +4,8 @@ title: Ralf's Blog
 tagline: Articles about Java and distributed computing
 ---
 {% include JB/setup %}
-
+<script src="{{ BASE_PATH }}/javascripts/run_prettify.js"></script>    
+<link href="{{ BASE_PATH }}/stylesheets/prettify.css" rel="stylesheet">
 <div class="tabbable" style="border:1px solid #ddd">
      
      <ul class="nav nav-tabs" id="example-tabs">
