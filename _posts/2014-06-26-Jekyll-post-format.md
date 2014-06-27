@@ -6,12 +6,12 @@ tags : [Jekyll]
 ---
 {% include JB/setup %}
 
-编写基于jekyll的文章，要注意两点
+编写基于jekyll-bootstrap 的文章，要注意几点
 
-- 在'_posts'目录下，建立的*.md文件的文件名为 year-month-day-title.md
-- 文章的一开头，需要声明内容
+- 文件名：在'_posts'目录下，建立的*.md文件的文件名为 year-month-day-title.md。
+当然，你可以在_config.xml 中修改md文件名或者路径的规则，上面是默认规则
+- 文件头：文章的一开头，需要声明内容，具体如下：
 
-具体如下
 <pre>
     ---
     layout: post
@@ -26,20 +26,30 @@ tags : [Jekyll]
 
 这样就能生成正常的blog文章
 
-------------我是分割线---------------
+- 文件内容：方便起见尽量采用markdown语法书写吧，本blog采用了 redcarpet引擎，它是github自己开发的markdown解释器，因此支持GFM的相关语法。
+- 代码高亮：代码高亮有三种方式：
+    1. 使用Html，bootstrap配合 googl-code-prettify.js
+    2. 使用 {% raw %}{% highlight java %}{% endraw %}
+    3. 使用 GFM的 围墙代码块 
+下面是 两个例子
+<pre>
+{% raw %}{% highlight java %}{% endraw %}
 
-关于配置jekyll，我的blog主要做了以下改动
+public static void main(String args[]){
+    System.out.println("test highlight code");
+}
 
-1. 修改_config.xml 中的 markdown，改为kramdown
-2. 修改_config.xml 中的 disqus 的 shotname，自己注册了一个disqus
-3. 其他改动主要针对blog样式，这需要参考jekyll的目录结构，以及jekyll的模板Liquid的语法
+{% raw %}{% endhighlight %}{% endraw %}
+</pre>
 
-Liquid的标签分为两种
-
-- {% raw %} {{ }} {% endraw %} 为输出标签，主要用于变量常量的输出和format
-- {% raw %} {% %} {% endraw %} 为tag标签，主要用于 if，for等控制
-
-具体内容参见[此链接](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+<pre>
+{% raw %}```java{% endraw %}
+public static void main(String args[]){
+    System.out.println("test highlight code");
+}
+{% raw %}```{% endraw %}
+</pre>
+效果如下：
 
 {% highlight java %}
 
@@ -50,8 +60,26 @@ public static void main(String args[]){
 {% endhighlight %}
 
 
+
 ```java
 public static void main(String args[]){
     System.out.println("test highlight code");
 }
 ```
+
+------------我是分割线---------------
+
+关于配置jekyll，我的blog主要做了以下改动
+
+1. 修改_config.xml 中的 markdown，改为redcarpet
+2. 修改_config.xml 中的 disqus 的 shotname，自己注册了一个disqus
+3. 其他改动主要针对blog样式，这需要参考jekyll的目录结构，以及jekyll的模板Liquid的语法
+
+Liquid的标签分为两种
+
+- {% raw %} {{ }} {% endraw %} 为输出标签，主要用于变量常量的输出和format
+- {% raw %} {% %} {% endraw %} 为tag标签，主要用于 if，for等控制
+
+具体内容参见[此链接](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+
+
