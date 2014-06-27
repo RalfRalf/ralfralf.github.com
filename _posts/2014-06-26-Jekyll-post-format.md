@@ -10,6 +10,7 @@ tags : [Jekyll]
 
 - 文件名：在'_posts'目录下，建立的*.md文件的文件名为 year-month-day-title.md。
 当然，你可以在_config.xml 中修改md文件名或者路径的规则，上面是默认规则
+
 - 文件头：文章的一开头，需要声明内容，具体如下：
 
 <pre>
@@ -27,28 +28,27 @@ tags : [Jekyll]
 这样就能生成正常的blog文章
 
 - 文件内容：方便起见尽量采用markdown语法书写吧，本blog采用了 redcarpet引擎，它是github自己开发的markdown解释器，因此支持GFM的相关语法。
+
 - 代码高亮：代码高亮有三种方式：
     1. 使用Html，bootstrap配合 googl-code-prettify.js
-    2. 使用 {% raw %}{% highlight java %}{% endraw %}
-    3. 使用 GFM的 围墙代码块 
-下面是 两个例子
-<pre>
-{% raw %}{% highlight java %}{% endraw %}
+    2. 使用 {% raw %}{% highlight java %}{% endraw %},例子如下：
+        ```
+        {% raw %}{% highlight java %}{% endraw %}
+        public static void main(String args[]){
+            System.out.println("test highlight code");
+        }
+        {% raw %}{% endhighlight %}{% endraw %}
+        ```
+        
+    3. 使用 GFM的 围墙代码块,例子如下：
+        ```
+        {% raw %}```java{% endraw %}
+        public static void main(String args[]){
+            System.out.println("test highlight code");
+        }
+        {% raw %}```{% endraw %}
+        ```
 
-public static void main(String args[]){
-    System.out.println("test highlight code");
-}
-
-{% raw %}{% endhighlight %}{% endraw %}
-</pre>
-
-<pre>
-{% raw %}```java{% endraw %}
-public static void main(String args[]){
-    System.out.println("test highlight code");
-}
-{% raw %}```{% endraw %}
-</pre>
 效果如下：
 
 {% highlight java %}
@@ -73,6 +73,7 @@ public static void main(String args[]){
 
 1. 修改_config.xml 中的 markdown，改为redcarpet
 2. 修改_config.xml 中的 disqus 的 shotname，自己注册了一个disqus
+3. 修改default.html，添加了pygment.css, 用来支持md的highlight
 3. 其他改动主要针对blog样式，这需要参考jekyll的目录结构，以及jekyll的模板Liquid的语法
 
 Liquid的标签分为两种
