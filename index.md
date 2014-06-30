@@ -5,8 +5,8 @@ tagline: Articles about Java and distributed computing
 ---
 {% include JB/setup %}
 
-<script src="{{ BASE_PATH }}/javascripts/run_prettify.js"></script>    
-<link href="{{ BASE_PATH }}/stylesheets/prettify.css" rel="stylesheet">
+<script src="{{ BASE_PATH }}/javascripts/prettify.js"></script>    
+<link href="{{ BASE_PATH }}/stylesheets/prettify-desert.css" rel="stylesheet">
 
 <div class="tabbable" style="border:1px solid #ddd">
      
@@ -92,4 +92,8 @@ tags: [tech, web, jekyll]
   [阅读全文]({{post.url}})
 {% endfor %}
 
-
+<script type="text/javascript">
+$(function() {
+  window.prettyPrint && prettyPrint();
+});
+</script>
