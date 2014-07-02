@@ -9,4 +9,4 @@ tags: [js, web]
 {% include JB/setup %}
 
 see this link for the details 
-http://www.cn-cuckoo.com/deconstructed/jquery.html
+[http://www.cn-cuckoo.com/deconstructed/jquery.html](http://www.cn-cuckoo.com/deconstructed/jquery.html)
