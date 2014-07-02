@@ -62,6 +62,8 @@ tags: [tech, web, jekyll]
       -CSS
       -Javascript
                 </pre>
+                
+                <a href="https://guides.github.com/features/mastering-markdown/">https://guides.github.com/features/mastering-markdown/</a>
                
           </div>
 
